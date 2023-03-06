@@ -55,3 +55,33 @@ tracking. The ability to slice and dice many resources is such a great way
 to productively visualize what you’ve got running, so it stands to reason
 that you’ll probably want to link those visualizations with the way you
 monitor—and control—spending.
+
+![](imgs/budget_type.jpg)
+![](imgs/bill_2.jpg)
+![](imgs/bill_alert.jpg)
+
+## 11.2 CloudWatch
+Amazon CloudWatch is the
+engine that drives AWS Budgets. The connection will become clear
+once I show you some of CloudWatch’s native functionality. In addition
+### 11.2.1 CloudWatch billing alerts
+![](imgs/cloudwatch_bill_1.jpg)
+![](imgs/cloudwatch_bill_2.jpg)
+![](imgs/cloudwatch_bill_config.jpg)
+![](imgs/cloudwatch_bill_name.jpg)
+
+### 11.2.2 CloudWatch usage alerts
+CloudWatch alerts to monitoring performance as well as
+costs. I’ll use a quick example to illustrate.
+Suppose you have a number of virtual machine instances running
+that access various EBS storage volumes. You want to make sure the
+number of volumes is appropriate to the actual demand they face. To
+do that, you can create alarms based on the `VolumeIdleTime` value of
+each volume you’re watching.
+
+As you might guess, `VolumeIdleTime` measures stretches of time (in
+seconds) through which an EBS volume has no requested read or write
+operations. If the number is too high, it may be time to retire a volume
+or two. Too low? Perhaps you should add one or more new volumes.
+Either way, receiving an alert telling you what’s going on can help you
+make timely decisions.
