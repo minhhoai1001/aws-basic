@@ -20,31 +20,31 @@ demands on an application.
 As you can see from the table of contents, I’ve divided the book’s chapters into three sections: the core toolset (chapters 2–12), high availability (chapters 13–17), and brief introductions to some of the AWS
 services and functionality that didn’t fit into the book’s other sections
 (chapters 18–20):
-- Chapter 1 introduces the cloud, the space within it that AWS
+- [Chapter 1](/ch01%20Before%20you%20begin.md) introduces the cloud, the space within it that AWS
 inhabits, and, in broad terms, the kinds of things you can accomplish there.
-- Chapter 2 is a quick-start project in which you’ll launch an actual
+- [Chapter 2](/ch02%20The%2010%20minute%20EC2%20web%20server.md) is a quick-start project in which you’ll launch an actual
 virtual machine on AWS EC2, serving a simple web server to the
 internet.
-- Chapter 3 demonstrates capacity-analysis techniques and adds
+- [Chapter 3](/ch03%20Provisioning%20a%20more%20robust%20EC2%20website.md) demonstrates capacity-analysis techniques and adds
 WordPress to your EC2 server.
-- Chapter 4 introduces managed-database hosting on Amazon’s
+- [Chapter 4](/ch04%20Databases%20on%20AWS.md) introduces managed-database hosting on Amazon’s
 Relational Database Service (RDS).
-- Chapter 5 shows you how to register and administer DNS domains
+- [Chapter 5](/ch05%20DNS%20what%E2%80%99s%20in%20a%20name.md) shows you how to register and administer DNS domains
 and routing policies using Route 53.
-- Chapter 6 addresses cheap, reliable, fast data storage using Simple
+- [Chapter 6](/ch06%20S3%20cheap%2C%20fast%20file%20storage.md) addresses cheap, reliable, fast data storage using Simple
 Storage Service (S3).
-- Chapter 7 demonstrates a couple of approaches to using S3 for
+- [Chapter 7](/ch07%20S3%20cheap%2C%20fast%20system%20backups.md) demonstrates a couple of approaches to using S3 for
 system and archive backups.
-- Chapter 8 turns your attention to security through the IAM service.
-- Chapter 9 shows how you can (and must) work with AWS tools to
+- [Chapter 8](/ch08%20AWS%20security-%20working%20with%20IAM%20users%2C%20groups%2C%20and%20roles.md) turns your attention to security through the IAM service.
+- [Chapter 9](/ch09%20Managing%20growth.md) shows how you can (and must) work with AWS tools to
 estimate and model the true costs of your projects.
-- Chapter 10 demonstrates the far-reaching value of applying
+- [Chapter 10](/ch10%20Pushing%20back%20against%20the%20chaos-using%20resource%20tags.md) demonstrates the far-reaching value of applying
 resource tags.
-- Chapter 11 promotes regular, smart monitoring of your resources
+- [Chapter 11](/ch11%20CloudWatch-monitoring%20AWS%20resource%20for%20fun%20and%20profit.md) promotes regular, smart monitoring of your resources
 through CloudWatch.
-- Chapter 12 introduces you to administering AWS resources
+- [Chapter 12](/ch12%20Another%20way%20to%20play%20-%20the%20command-line%20interface.md) introduces you to administering AWS resources
 through the AWS command-line interface (CLI).
-- Chapter 13 discusses elasticity and scalability as they relate to virtual servers.
+- [Chapter 13](/ch13%20Keeping%20ahead%20of%20user%20demand.md) discusses elasticity and scalability as they relate to virtual servers.
 - Chapter 14 addresses organizing your infrastructure within VPCs
 and availability zones to enhance their reliability.
 - Chapter 15 covers load balancing as a tool for intelligently directing client traffic among multiple servers.

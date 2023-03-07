@@ -24,6 +24,7 @@ hub through which you can get stuff done.
 
 # How AWS does it
 ![](imgs/instance.jpg)
+
 Figure. An illustration of the way compute instances are virtualized within a single  physical server on AWS versus the use of individual physical machines in the legacy model.
 ##  The big picture
 - The security group controls the movement of data between
@@ -36,4 +37,5 @@ data for both backup and delivery to users (chapter 6).
 instance (chapter 2)
 
 ![](imgs/deployment.jpg)
+
 Figure. The kind of deployment you should be able to build once you’ve read at least the first 12 chapters of this book
