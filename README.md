@@ -47,7 +47,7 @@ through the AWS command-line interface (CLI).
 - [Chapter 13](/ch13%20Keeping%20ahead%20of%20user%20demand.md) discusses elasticity and scalability as they relate to virtual servers.
 - [Chapter 14](/ch14%20Hight%20availability%20working%20with%20AWS%20networking%20tools.md) addresses organizing your infrastructure within VPCs
 and availability zones to enhance their reliability.
-- Chapter 15 covers load balancing as a tool for intelligently directing client traffic among multiple servers.
+- [Chapter 15](/ch15%20High%20availaability-load%20balancing.md) covers load balancing as a tool for intelligently directing client traffic among multiple servers.
 - Chapter 16 shows how auto scaling can be used to automatically
 manage changes in user demand and server health.
 - Chapter 17 describes how the CloudFront content-delivery network can be used to reduce latency for geographically dispersed
