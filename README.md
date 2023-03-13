@@ -52,7 +52,7 @@ and availability zones to enhance their reliability.
 manage changes in user demand and server health.
 - [Chapter 17](/ch17%20High%20availability-content%20delivery%20networks.md) describes how the CloudFront content-delivery network can be used to reduce latency for geographically dispersed
 users.
-- Chapter 18 illustrates the use of various tools to permit hybrid
+- [Chapter 18](/ch18%20Building%20hybrid%20infrastructure.md) illustrates the use of various tools to permit hybrid
 local/cloud solutions.
 - Chapter 19 discusses some AWS cloud-automation tools (specifically, Elastic Beanstalk, ECS, and Lambda).
 - Chapter 20 briefly surveys some of the AWS tools I couldn’t properly cover in the book.
