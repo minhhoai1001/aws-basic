@@ -50,7 +50,7 @@ and availability zones to enhance their reliability.
 - [Chapter 15](/ch15%20High%20availaability-load%20balancing.md) covers load balancing as a tool for intelligently directing client traffic among multiple servers.
 - [Chapter 16](/ch16%20High%20avilability-auto%20scaling.md) shows how auto scaling can be used to automatically
 manage changes in user demand and server health.
-- Chapter 17 describes how the CloudFront content-delivery network can be used to reduce latency for geographically dispersed
+- [Chapter 17](/ch17%20High%20availability-content%20delivery%20networks.md) describes how the CloudFront content-delivery network can be used to reduce latency for geographically dispersed
 users.
 - Chapter 18 illustrates the use of various tools to permit hybrid
 local/cloud solutions.
