@@ -55,7 +55,7 @@ users.
 - [Chapter 18](/ch18%20Building%20hybrid%20infrastructure.md) illustrates the use of various tools to permit hybrid
 local/cloud solutions.
 - [Chapter 19](./ch19%20Cloud%20automation-working%20with%20Elatic%20Beanstalk%2C%20Docker%2C%20and%20%20Lambda.md) discusses some AWS cloud-automation tools (specifically, Elastic Beanstalk, ECS, and Lambda).
-- Chapter 20 briefly surveys some of the AWS tools I couldn’t properly cover in the book.
+- [Chapter 20](./ch20%20Everything%20else%20(nearly).md) briefly surveys some of the AWS tools I couldn’t properly cover in the book.
 - Chapter 21 says, “Goodbye—it’s been great spending time with
 you!”
 
