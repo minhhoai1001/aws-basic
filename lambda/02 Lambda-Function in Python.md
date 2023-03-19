@@ -10,10 +10,12 @@ Login to AWS console and create Lambda function and select the language as Pytho
 
 #### Step 2
 Now, click Create function button and enter the details for creating a simple AWS Lambda in Python. This code returns the message Hello from Lambda using Python and looks as shown here
+
 ![](../imgs/create_function_python.jpg)
 
 #### Step 3
 Now, save the changes and the test the code to see the output. You should see the following output and logs when you test it in AWS console using the test button from the UI.
+
 ![](../imgs/aws_console_python.jpg)
 
 ### Step 4
@@ -21,6 +23,7 @@ Now, you can write code inside any editor or an IDE for Python. Here, we are usi
 
 ### Step 5
 Now, select Upload a .ZIP file option as shown below
+
 ![](../imgs/lambda_zip_python.jpg)
 
 ## 2. Handler Details for Python
