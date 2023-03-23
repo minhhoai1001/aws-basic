@@ -1,10 +1,8 @@
 import boto3
 
-# Retrieve the list of existing buckets
-s3 = boto3.client('s3')
-response = s3.list_buckets()
-
-# Output the bucket names
-print('Existing buckets:')
-for bucket in response['Buckets']:
-    print(f'  {bucket["Name"]}')
+AWS_REGION = "ap-southeast-1"
+resource = boto3.resource("s3", region_name=AWS_REGION)
+iterator = resource.buckets.all()
+print("Listing Amazon S3 Buckets:")
+for bucket in iterator:
+    print(f"-- {bucket.name}")
